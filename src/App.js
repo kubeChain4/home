@@ -5,12 +5,13 @@ import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
 import AboutSection from './components/AboutSection';
 import ContactSection from './components/ContactSection';
-import HybridConsensusSection from './components/HybridConsensusSection'; 
-import ResourcePoolingSection from './components/ResourcePoolingSection'; 
+import HybridConsensusSection from './components/HybridConsensusSection';
+import ResourcePoolingSection from './components/ResourcePoolingSection';
 import UserExperienceSection from './components/UserExperienceSection';
 import SecurityTrustSection from './components/SecurityTrustSection';
 import InnovationGrowthSection from './components/InnovationGrowthSection';
 import ProductRenderSection from './components/ProductRenderSection';
+import Donations from './components/DonationsSection';
 
 const seperatorDiv = () => (
   <div>
@@ -30,13 +31,13 @@ function App() {
       <HeroSection />
       <AboutSection />
       <FeaturesSection />
-      <HybridConsensusSection /> 
+      <HybridConsensusSection />
       <ResourcePoolingSection />
       <InnovationGrowthSection />
       <UserExperienceSection />
       <SecurityTrustSection />
       <ProductRenderSection />
-
+      {/* <Donations /> */}
       {/* <ContactSection /> */}
     </div>
   );
