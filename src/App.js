@@ -11,6 +11,7 @@ import UserExperienceSection from './components/UserExperienceSection';
 import SecurityTrustSection from './components/SecurityTrustSection';
 import InnovationGrowthSection from './components/InnovationGrowthSection';
 import ProductRenderSection from './components/ProductRenderSection';
+import Roadmap from './components/RoadmapSection';
 import Donations from './components/DonationsSection';
 
 const seperatorDiv = () => (
@@ -36,6 +37,7 @@ function App() {
       <InnovationGrowthSection />
       <UserExperienceSection />
       <SecurityTrustSection />
+    <Roadmap />
       <ProductRenderSection />
       {/* <Donations /> */}
       {/* <ContactSection /> */}
